@@ -23,7 +23,7 @@ function AppFooter() {
     <Wrapper>
       <P>
         Made by Serkan Babacan. Check out at
-        <A href="#">
+        <A href="https://github.com/serkanbabacan/react-weather-app" target="_blank">
           {" "}
           <AiFillGithub />
         </A>

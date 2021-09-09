@@ -3,10 +3,10 @@
 
 ---
 
-A weather application to provide current, hourly and daily weather forecast for any city around the world.
-I used Open Weather Map API to retrive the forecast data and TOMTOM API for search bar and reverse geocoding.
-Built with react, using hooks, styled-components, recharts, axios.
-It has daily and hourly forecast analytics which presented using charts.
+A weather application to provide current, hourly and daily weather forecast for any city around the world.\
+I used Open Weather Map API to retrive the forecast data and TOMTOM API for search bar and reverse geocoding.\
+Built with react, using hooks, styled-components, recharts, axios.\
+It has daily and hourly forecast analytics which presented using charts.\
 For the icons, I used [weather-icons](https://erikflowers.github.io/weather-icons/). 
 
 ## Setting up development environment 
