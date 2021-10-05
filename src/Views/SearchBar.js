@@ -40,6 +40,15 @@ const Button = styled(TiDelete)`
   font-size: 16px;
   margin: 0;
   padding: 0;
+  @media only screen and (min-width: 200px) and (max-width: 600px) {
+    display: block;
+    top: 2.6px;
+    right: -1px;
+    width: 10%;
+    position: absolute;
+    text-align: right;
+    margin-right: 10px;
+  }
 `;
 
 const Location = styled.li`
@@ -101,6 +110,7 @@ function SearchBar(props) {
         key={item.name}
         data-index={item.name}
         onClick={handleLocChange}
+        onTouchStart={handleLocChange}
       >
         {item.name}
         <Button onClick={(event) => handleDelete(item, event)} />
